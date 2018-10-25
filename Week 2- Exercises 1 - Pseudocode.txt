@@ -1,0 +1,93 @@
+Week 2
+
+SOAL no 1.  Newton Second Law
+
+ALGORITMA
+
+1. Masukkan nilai "massa_benda" 600 kg
+2. Masukkan nilai "percepatan" 2 m/s2
+3. Masukkan nilai "resultan_gaya" dengan 0 //nilai awal
+4. Hitung hasil perkalian "massa_benda" dengan nilai "percepatan", isikan hasilnya ke dalam "resultan_gaya"
+5. Tampilkan nilai "resultan_gaya"
+6. Selesai
+
+PSEUDOCODE
+
+STORE "massa_benda" with 600 kg
+STORE "percepatan" with 2 m/s2
+STORE "resultan_gaya" without any value
+
+CALCULATE "massa_benda" times "percepatan"
+SET "resultan_gaya" value with calculation result
+
+DISPLAY "resultan_gaya"
+
+
+
+Soal no 2. Tahun Kabisat
+
+ALGORITMA
+
+1. Jika "tahun" habis dibagi 4 dan tidak habis dibagi 100 maka tampilkan "kabisat" atau
+3. Jika "tahun" habis dibagi 4, habis dibagi 100 dan habis dibagi 400 maka tampilkan "kabisat"
+3. Jika tidak kondisi keduanya maka "bukan_kabisat"
+4. Selesai
+
+
+PSEUDOCODE
+
+IF "tahun" is divisible by 4 && "tahun" not divisible by 100
+    DISPLAY "kabisat"
+ELSE IF "tahun" divisible by 4 is 0 && "tahun" divisible by 100 is 0 && "tahun" divisible by 400 is 0
+    DISPLAY "kabisat"
+ELSE
+    "bukan_kabisat"
+ENDIF
+
+
+
+SOAL no.3 Laundry Day
+
+ALGORITMA
+
+1. Masukkan nilai "pakaian" dengan 0
+2. Ulangi langkah 3 selama "pakaian" kurang dari 20. Jika "pakaian" sudah 20, lanjut ke langkah 4
+3. Tambah "pakaian" dengan 1, agar semakin mendekati batas perulangan. Kembali ke langkah 2
+4. Tampilkan "penuh"
+5. Selesai
+
+PSEUDOCODE
+
+STORE "pakaian" with 0
+WHILE "pakaian" < 20
+    ADD "pakaian" by 1
+    DISPLAY "penuh"
+ENDW
+
+
+
+SOAL no 4. Periksa Kuku
+
+ALGORITMA
+
+1. Masukkan nilai "siswa" dengan 0
+2. Selama "siswa" kurang dari 40 tambah nilai "siswa" dengan 1
+3. Ulangi langkah 2 sampai "siswa" mencapai 40,
+4. Pengkondisian
+5. Kondisi jika "siswa" berkuku panjang maka "dihukum", jika tidak ke langkah selanjutnya
+6. Siswa akan "dipuji" oleh guru. Kondisi selesai.
+7. Tampilkan "siswa" dengan "kondisi"
+5. Selesai
+
+PSEUDOCODE
+
+STORE "siswa" with 0
+WHILE "siswa" < 40
+    ADD "siswa" by 1
+
+    IF "siswa" equals "kuku_panjang"
+        DISPLAY "dihukum"
+    ELSE
+        DISPLAY "dipuji"
+    ENDIF
+ENDW
