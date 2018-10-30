@@ -1,5 +1,5 @@
 //1. Melakukan Looping Menggunakan While
-/*
+
 var kata = " - I love coding";
 var i = 0;
 while(i < 20){
@@ -21,10 +21,10 @@ while(j >2){
         j -=2;
         console.log(j, kata1);
 }
-*/
+
 
 //2. Melakukan Looping Menggunakan For
-/*
+
 var limit= 20;
 for (var i = 1; i< limit; i++){
     if (i==1){
@@ -35,17 +35,16 @@ for (var i = 1; i< limit; i++){
 
 
 var limit1=20;
-for (var j = limit; j>0; j--){
+for (var j = limit1; j>0; j--){
     if(j==20){
         console.log("LOOPING KEDUA");
     }
     console.log(j, "- I will become fullstack developer");
 }
-*/
 
-/*
+
 var limit2= 100;
-for (var counter=0; counter<limit2; counter ++){
+for (var counter=1; counter<=limit2; counter ++){
     if(counter % 2 == 0){
         console.log(counter + " GENAP");
     }
@@ -53,10 +52,9 @@ for (var counter=0; counter<limit2; counter ++){
         console.log(counter + " GANJIL");
     }
 }
-*/
 
 var limit3= 100;
-for (var counter=1; counter<limit3; counter++){
+for (var counter=1; counter<=limit3; counter+=2){
     if(counter % 3 == 0){
         console.log(counter + " kelipatan " + 3);
     }
@@ -64,25 +62,25 @@ for (var counter=1; counter<limit3; counter++){
         console.log("");
     }
 }
-/*
-var limit4= 100;
-for (var counter=1; counter<limit4; counter+=4){
-    if(counter % 4 == 0){
-        console.log(counter + " kelipatan " + 4);
-    }
-    else{
-        console.log("");
-    }
-}
 
 var limit5= 100;
-for (var counter=1; counter<limit5; counter+=5){
-    if(counter % 5 == 0){
-        console.log(counter + " kelipatan " + 5);
+for (var counter=1; counter<=limit5; counter+=5){
+    if(counter % 6 == 0){
+        console.log(counter + " kelipatan " + 6);
     }
     else{
         console.log("");
     }
 }
 
-*/
+
+var limit9= 100;
+for (var counter=1; counter<=limit9; counter+=9){
+    if(counter % 10 == 0){
+        console.log(counter + " kelipatan " + 10);
+    }
+    else{
+        console.log("");
+    }
+}
+
