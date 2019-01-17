@@ -51,4 +51,4 @@ switch (true){
         break; }
 }
 
-console.log ("Tanggal " + tanggal + " Bulan " + bulan + " Tahun " + tahun);
+console.log (tanggal + " " + bulan + " " + tahun);
